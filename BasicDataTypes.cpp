@@ -12,32 +12,30 @@ using namespace std;
 
 int main()
 {
-    int value;
-    float valueFloat;
-    char valueChar;
-    double valueDauble;
-    long valueLong;
+    int intValue;
+    float floatValue;
+    char charValue;
+    double doubleValue;
+    long longValue;
 
-    scanf(" %d %ld %c %f %lf", &value, &valueLong, &valueChar, &valueFloat, &valueDauble );
-
-    printf(" %d\n %ld\n %c\n %.3f\n %.9lf\n", value, valueLong, valueChar, valueFloat, valueDauble );
-
-
+    scanf(" %d %ld %c %f %lf", &intValue, &longValue, &charValue, &floatValue, &doubleValue);
+    printf("%d\n%ld\n%c\n%.3f\n%.9lf\n", intValue, longValue, charValue, floatValue, doubleValue);
 
     int d;
-    int long ld;
+    long ld;
     char c;
     float f;
     double lf;
-    cin>>d;
-    cin>>ld;
-    cin>> c;
-    cin>>f;
-    cin>>lf;
 
-    cout<<d<<endl;
-    cout<<ld<<endl;
-    cout<<c<<endl; 
-    cout<<fixed<<setprecision(3)<<f<<endl; // using manipulators
-    cout<<fixed<<setprecision(9)<<lf<<endl;
+    cin >> d;
+    cin >> ld;
+    cin >> c;
+    cin >> f;
+    cin >> lf;
+
+    cout << d << endl;
+    cout << ld << endl;
+    cout << c << endl;
+    cout << fixed << setprecision(3) << f << endl; // using manipulators
+    cout << fixed << setprecision(9) << lf << endl;
 }
