@@ -1,0 +1,33 @@
+GroupName: Group A1   Facultet: Faculty of Computer Science.  Facultet Profile: Computer Science
+Student #[1] Name: Anton. Surname: Kerilov
+
+GroupName: Group A2   Facultet: Faculty of Computer Science.  Facultet Profile: Computer Science
+ListStudents is empty
+
+GroupName: Group A3   Facultet: Faculty of Computer Science.  Facultet Profile: Computer Science
+ListStudents is empty
+
+GroupName: Group A4   Facultet: Faculty of Computer Science.  Facultet Profile: Computer Science
+ListStudents is empty
+
+GroupName: Group A5   Facultet: Faculty of Computer Science.  Facultet Profile: Computer Science
+ListStudents is empty
+
+GroupName: Group A6   Facultet: Faculty of Computer Science.  Facultet Profile: Computer Science
+ListStudents is empty
+
+GroupName: Group A7   Facultet: Faculty of Computer Science.  Facultet Profile: Computer Science
+ListStudents is empty
+
+GroupName: Group A8   Facultet: Faculty of Computer Science.  Facultet Profile: Computer Science
+ListStudents is empty
+
+GroupName: Group A9   Facultet: Faculty of Computer Science.  Facultet Profile: Computer Science
+ListStudents is empty
+
+GroupName: Group A10   Facultet: Faculty of Computer Science.  Facultet Profile: Computer Science
+ListStudents is empty
+
+GroupName: A11   Facultet: Aaaa.  Facultet Profile: abab
+ListStudents is empty
+
