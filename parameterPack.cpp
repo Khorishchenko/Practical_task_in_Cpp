@@ -1,28 +1,28 @@
 #include <iostream>
 
 // // Основний шаблон
-// template <int N, bool... digits>
-// struct CheckValues {
-//     static void print() {
-//         std::cout << "General template with N = " << N << std::endl;
-//     }
-// };
+template <int N, bool... digits>
+struct CheckValues {
+    static void print() {
+        std::cout << "General template with N = " << N << std::endl;
+    }
+};
 
-// // Часткова спеціалізація для N = 0
-// template <bool... digits>
-// struct CheckValues<0, digits...> {
-//     static void print() {
-//         std::cout << "Specialized template for N = 0" << std::endl;
-//         std::cout << "Number of bools: " << sizeof...(digits) << std::endl;
-//     }
-// };
+// Часткова спеціалізація для N = 0
+template <bool... digits>
+struct CheckValues<0, digits...> {
+    static void print() {
+        std::cout << "Specialized template for N = 0" << std::endl;
+        std::cout << "Number of bools: " << sizeof...(digits) << std::endl;
+    }
+};
 
-// int main() {
-//     CheckValues<5, true, false>::print(); // Використовує основний шаблон
-//     CheckValues<0, true, true, false>::print(); // Використовує часткову спеціалізацію
+int main() {
+    CheckValues<5, true, false>::print(); // Використовує основний шаблон
+    CheckValues<0, true, true, false>::print(); // Використовує часткову спеціалізацію
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 
