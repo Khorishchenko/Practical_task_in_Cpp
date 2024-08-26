@@ -123,6 +123,24 @@ void StudentGroup::AverageGradeIdenticalStudentsName(string StudentName) ///////
         Average = Sum / Counter;
         cout << "Average grade : " << Average << endl;
     }
+
+
+    // int sum = 0;
+    // int count = 0;
+
+    // for (const auto& student : ListStudents) {
+    //     if (student.Name == StudentName) {
+    //         sum += student.AverageG;
+    //         count++;
+    //     }
+    // }
+
+    // if (count == 0) {
+    //     cout << "Students with name " << StudentName << " not found." << endl;
+    // } else {
+    //     double average = static_cast<double>(sum) / count;
+    //     cout << "Average grade : " << average << endl;
+    // }
 }
 
 bool StudentGroup::belongsToFaculty(const string& facultyName) const

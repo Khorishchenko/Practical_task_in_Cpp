@@ -12,7 +12,11 @@
 
 // Mock class for Game class to isolate the unit test
 class MockGame {
+private:
+    int numberToGuess;
 public:
+    MockGame() : numberToGuess(rand() % 100) {}
+    
     void startGame() {
         int guess;
         bool correct = false;
@@ -37,10 +41,21 @@ public:
     bool checkGuess(int guess) {
         // Implement the logic for checking the guess
         // Return true for valid guess, false otherwise
+        if (guess < numberToGuess) {
+            std::cout << YELLOW << "Більше!" << RESET << std::endl;
+            return false;
+        } else if (guess > numberToGuess) {
+            std::cout << YELLOW << "Менше!" << RESET << std::endl;
+            return false;
+        } else {
+            return true;
+        }
+
     }
 
     void displayResult(bool result) {
         // Implement the logic for displaying the result
+        std::cout << (result? GREEN : RED) << "Ви " << (result? "вгадали" : "не вгадали") << RESET << std::endl;
     }
 };
 
